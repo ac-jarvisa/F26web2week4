@@ -16,9 +16,18 @@
           <section class="back-sizer">
             <!-- we're using this section to play with background images -->
           </section>
-          <section>
+
+          <section class="srcset-test">
               <!-- this section is for playing with srcset -->
-              <img src="images/puppy-1.0.jpg" alt="A white puppy standing in short grass">
+               <!-- the srcset attribute lets you give a set of images to the browser,
+                to choose the best one based on a set of conditions (in this case,
+                pixel density - 1x, 2x, or 3x) -->
+              <img 
+                src="images/puppy-1.0.jpg" 
+                alt="A white puppy standing in short grass"
+                srcset="images/puppy-1.0.jpg 1x,
+                        images/puppy-2.0.jpg 2x,
+                        images/puppy-3.0.jpg 3x">
           </section>
 
           <section class="test2">

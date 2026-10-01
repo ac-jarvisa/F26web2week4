@@ -44,3 +44,16 @@ of the page */
     /* if you are worried about repeat, you can turn it off... */
     background-repeat:no-repeat;
 }
+
+
+/*********************************************
+        IMAGES IN HTML
+*********************************************/
+
+.srcset-test img{
+    /* max-inline-size instead of max-width to ensure the image sizes relative to the
+    reading direction of the text */
+    max-inline-size: 100%;
+    /* make sure the image sizes in ratio */
+    block-size:auto;
+}
